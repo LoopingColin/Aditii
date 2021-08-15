@@ -1,0 +1,214 @@
+/* flexbox */
+
+/* generic */
+
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.inner {
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    width: 75%;
+}
+
+h1 {
+    /* border: 1px solid blue; */
+    color: #3cc3b5;
+}
+
+
+/* close generic */
+
+
+/* header */
+
+.top-header {
+    /* border: 1px solid blue; */
+    text-transform: uppercase;
+}
+ 
+
+.searchbox {
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 35%;
+    top: 20px;
+}
+
+.search {
+    /* border: 1px solid blue; */
+    width: 350px;
+}
+
+.top-image {
+    /* border: 1px solid blue; */
+    position: absolute;
+    left: 68%;
+    top: 2px;
+}
+
+
+.main-nav {
+    /* border: 1px solid blue; */
+    padding: 2px;
+    padding-left: 170px;
+    /* color: white; */
+    background-color: #3cc3b5;
+    text-transform: uppercase;
+    /* background-color: blue; */
+}
+
+.main-nav-item {
+    /* border: 1px solid red; */
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* close header */
+
+/* main */
+.block1 {
+    color: white;
+}
+
+.button {
+    /* border: 1px solid red; */
+    border-radius: 4px;
+    background-color:#3cc3b5;
+    color: white;
+    text-transform: uppercase;
+    padding: 25px;
+    height: 30px;
+}
+
+.levi-section {
+    /* border: 1px solid blue; */
+    /* background-color: blue; */
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background-color: #3cc3b5;
+}
+
+.levi-img {
+    /* border: 1px solid red; */
+    top: 50px;
+    position: relative;
+}
+
+
+.block1 {
+    /* border: 1px solid red; */
+    position: absolute;
+    /* width: calc(100% / 3); */
+    width: 400px;
+    /* height: 36vh; */
+    padding: 20px 10px;
+    left: 40%;
+    top: 50px;
+}
+
+.content-section {
+    border-bottom: 60px solid #3cc3b5;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.products {
+    /* border: 1px solid red; */
+    position: relative;
+    top: -60px;
+    left: 200px;
+    color: white;
+}
+
+.featured-products {
+    border: 1px solid red;
+    display: flex;
+    /* color: white; */
+   
+}
+
+.products-bottom {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* close main */
+
+/* footer */
+.footer {
+    /* border: 1px solid blue; */
+    background-color: #3cc3b5;
+}
+.main-footer {
+    /* border: 1px solid red; */
+    padding: 20px;
+    /* background-color: blue; */
+}
+
+.main-footer .inner {
+    /* border: 1px solid blue; */
+    position: relative;
+    height: 60vh;
+}
+
+.footer-div {
+    /* border: 1px solid blue; */
+    position: absolute;
+    width: calc(100% / 3);
+    height: 70vh;
+}
+
+
+.footer-div:first-child {
+    top: 0;
+    left: -260px;
+}
+
+.footer-div:nth-child(2) {
+    top: 0;
+    left: 200px;
+}
+
+.footer-div:nth-child(3) {
+    top: 0;
+    right: 260px;
+}
+
+.footer-div:nth-child(4) {
+    top: 0;
+    right: -220px;
+}
+
+.footer-div h2 {
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.colophon {
+    padding: 0 0 100px 0;
+    text-transform: uppercase;
+    position: absolute;
+    left: 35%;
+}
+    
+
+.colophon-text {
+    margin: 0;
+}
+
+
+
+
